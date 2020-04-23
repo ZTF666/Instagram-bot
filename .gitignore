@@ -1,0 +1,6 @@
+__pycache__
+.vscode
+chromedriver.exe
+credentials.py
+debug.log
+ZTF.py
