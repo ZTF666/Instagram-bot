@@ -61,6 +61,9 @@ pwd = 'PASSWORD'
 ```
 The script bugs out from time to time depending on your internet speed .
 The quality is shit , i made this while learning so excuse my n00bish mistakes .
+
+The function SLEEP() , has high intervals because of my 3rd world internet , 💛 4mbps 💛 .
+You should adapt it to your needs .
 ```
 
 ## Support
