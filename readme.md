@@ -16,7 +16,6 @@ pip install selenium
 
 ```
 Get your chrome driver from this website : 
-
 ```
 👉 [ChromeDriver](http://chromedriver.chromium.org/) 👈
 
