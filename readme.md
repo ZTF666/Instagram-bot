@@ -3,6 +3,7 @@
 A small python bot that automates the process of login in to IG via facebook .
 Then sends follow requests from the suggestions tab .
 
+## THIS IS A WiP !!!!!!!!
 
 ## How to use
 
@@ -15,24 +16,25 @@ pip install selenium
 - **Download**
 
 ```
-Get your chrome driver from this website : 
+Get your chrome driver from this website :
 ```
+
 👉 [ChromeDriver](http://chromedriver.chromium.org/) 👈
 
 ```
 
 If you're using windows , you may want to put the .exe in the same folder as the script.
 
-If you're using macOs , just move it to /usr/local/bin 
+If you're using macOs , just move it to /usr/local/bin
 
 I haven't tested it on linux, but i bet it's the same as macOs ...
 
 ```
 
-## Functionalities 
+## Functionalities
 
 ```
-Functionalities implemented so far : 
+Functionalities implemented so far :
 
 LOGIN ✔️
 FOllOW ✔️
@@ -46,7 +48,7 @@ UNFOLLOWERS ❌
 - **Credentials**
 
 ```
-As any other file containing sensitive data , you should make one called : 
+As any other file containing sensitive data , you should make one called :
 credentials.py that contains :
 ```
 
