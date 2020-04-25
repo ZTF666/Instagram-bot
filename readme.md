@@ -43,10 +43,10 @@ Functionalities implemented so far :
 
 LOGIN ✔️
 FOllOW ✔️
-UNFOLLOW ❌ | WiP
+UNFOLLOW ✔️
 NBR FOLLOWERS ❌
 NBR FOLLOWING ❌
-UNFOLLOWERS ❌ | WiP
+UNFOLLOWERS ❌
 
 ```
 
