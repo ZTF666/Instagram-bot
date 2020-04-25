@@ -90,7 +90,7 @@ How it works & possible optimisation :
 
 </details>
 
-- **Credentials**
+**Credentials**
 
 ```
 As any other file containing sensitive data , you should make one called :
