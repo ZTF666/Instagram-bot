@@ -71,6 +71,25 @@ if(x == 30):
 
 </details>
 
+**Unfollow**
+How it works & possible optimisation :
+
+<details>
+  
+  <p>Basicaly just like the follow part</p>
+  <p>I only unfollow 11 at a time , for some reason, if higher it results in a crash.</P>
+  <p>You can optimise this by changing the number.</p>
+  <p>BUT you need to figure out a way to scroll through everything</p>
+
+```python
+ if(K == 11):
+      closemod = self.driver.find_element_by_xpath('/html/body/div[4]/div/div[1]/div/div[2]/button')
+      closemod.click()
+      ZTF.mylist(self)
+```
+
+</details>
+
 - **Credentials**
 
 ```
@@ -106,6 +125,10 @@ you can contact me at ZTF666@protonmail.ch or via my portfolio
 ```
 
 - **:heart:** [Portfolio](https://ztfportfolio.web.app/) **:heart:**
+
+## License
+
+**🤖Z-foll** released under the [MIT](LICENSE) License.
 
 ```
 Made with 💘 by a 👨‍💻 on a 💻 | 2020 | ZTF666
