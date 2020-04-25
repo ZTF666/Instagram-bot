@@ -5,6 +5,11 @@ Then sends follow requests from the suggestions tab .
 
 ## THIS IS A WiP !!!!!!!!
 
+```
+Since this is still experimental , things my change .
+Once fully finished , this section will be deleted , Until then , enjoy this lol.
+```
+
 ## How to use
 
 - **Install**
@@ -38,12 +43,33 @@ Functionalities implemented so far :
 
 LOGIN ✔️
 FOllOW ✔️
-UNFOLLOW ❌
+UNFOLLOW ❌ | WiP
 NBR FOLLOWERS ❌
 NBR FOLLOWING ❌
-UNFOLLOWERS ❌
+UNFOLLOWERS ❌ | WiP
 
 ```
+
+**Follow**
+How it works & possible optimisation :
+
+<details>
+  
+  <p>The logic i used is :</p>
+  <p>The script opens up the 'ALL SUGGESTIONS TAB' then loads few of those suggestions</p>
+  <p>Then goes through the first 30 accounts and follows them.</p>
+  <p>Once it's done , it refreshes the page then repeat.</p>
+  <p>It won't stop until you stop the script .</p>
+
+  <p>You can optimise this by changing the number , i think a full page loaded displays up to 140 profiles.</p>
+
+```python
+if(x == 30):
+              self.driver.refresh()
+              ZTF.follow(self)
+```
+
+</details>
 
 - **Credentials**
 
@@ -79,7 +105,7 @@ Any help improving this and adding more stuff is welcome ! .
 you can contact me at ZTF666@protonmail.ch or via my portfolio
 ```
 
-- **:biohazard:** [Portfolio](https://ztfportfolio.web.app/) **:biohazard:**
+- **:heart:** [Portfolio](https://ztfportfolio.web.app/) **:heart:**
 
 ```
 Made with 💘 by a 👨‍💻 on a 💻 | 2020 | ZTF666

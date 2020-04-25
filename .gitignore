@@ -4,3 +4,6 @@ chromedriver.exe
 credentials.py
 debug.log
 ZTF.py
+Follow.py
+Unfollow.py
+Z-foll.py
