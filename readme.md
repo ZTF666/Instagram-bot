@@ -93,13 +93,15 @@ How it works & possible optimisation :
 **Credentials**
 
 ```
-As any other file containing sensitive data , you should make one called :
-credentials.py that contains :
+As any other file containing sensitive data, credentials.py contains :
 ```
 
 ```python
 login = 'PHONE_EMAIL_OR_USERNAME'
 pwd = 'PASSWORD'
+```
+```
+Make sure to change that .
 ```
 
 ## LIMITATIONS :

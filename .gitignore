@@ -1,7 +1,7 @@
 __pycache__
 .vscode
 chromedriver.exe
-credentials.py
+creds.py
 debug.log
 ZTF.py
 Z-foll.py
