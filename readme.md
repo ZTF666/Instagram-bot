@@ -6,7 +6,7 @@ Then sends follow requests from the suggestions tab .
 ## THIS IS A WiP !!!!!!!!
 
 ```
-Since this is still experimental , things my change .
+Since this is still experimental , things my change or be super buggy .
 Once fully finished , this section will be deleted , Until then , enjoy this lol.
 ```
 
