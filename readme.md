@@ -1,7 +1,8 @@
 # 🤖Z-foll
 
-A small python bot that automates the process of login in to IG via facebook .
-Then sends follow requests from the suggestions tab .
+A small python bot/scripts that automates the process of login in to IG via facebook .
+Send follow requests from the suggestions tab .
+Unfollow people you follow .
 
 ## THIS IS A WiP !!!!!!!!
 
