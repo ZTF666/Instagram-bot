@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 from credentials import login,pwd
 
+
 class ZTF():
     def __init__(self):
         self.driver=webdriver.Chrome()
