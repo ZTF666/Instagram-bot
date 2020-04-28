@@ -1,8 +1,9 @@
 # 🤖Z-foll
 
-A small python bot/scripts that automates the process of login in to IG via facebook .
+A small python bot/ set of scripts that automates the process of login in to IG via facebook .
 Send follow requests from the suggestions tab .
-Unfollow people you follow .
+Unfollow people .
+Download pictures from a given public profile
 
 ## THIS IS A WiP !!!!!!!!
 
@@ -45,8 +46,7 @@ Functionalities implemented so far :
 LOGIN ✔️
 FOllOW ✔️
 UNFOLLOW ✔️
-NBR FOLLOWERS ❌
-NBR FOLLOWING ❌
+DOWNLOAD POSTS ✔️
 UNFOLLOWERS ❌
 
 ```
@@ -91,6 +91,16 @@ How it works & possible optimisation :
 
 </details>
 
+**Download Posts (pics only)**
+
+```
+Given a profile , the script will acces it , load up the first 32 posts , get their links .
+Then download the pictures .
+There's a margin of error here , since some posts disapear from the code when they leave the view.
+That's why i'm only able to grab the 32 first ones.
+```
+
+
 **Credentials**
 
 ```
@@ -100,6 +110,7 @@ As any other file containing sensitive data, credentials.py contains :
 ```python
 login = 'PHONE_EMAIL_OR_USERNAME'
 pwd = 'PASSWORD'
+profile ='elonmusk'
 ```
 ```
 Make sure to change that .
@@ -127,7 +138,15 @@ Any help improving this and adding more stuff is welcome ! .
 you can contact me at ZTF666@protonmail.ch or via my portfolio
 ```
 
-- **:heart:** [Portfolio](https://ztfportfolio.web.app/) **:heart:**
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><a href="https://ztfportfolio.web.app/"><img src="https://avatars1.githubusercontent.com/u/32502988?v=4" width="100px;" alt=""/><br /><sub><b>ZTF666</b></sub></a><br /><a href="https://github.com/ZTF666/Twitter-bot" title="Code">💻</a> </td>
+  </tr>
+</table>
+
+</div>
 
 ## License
 
