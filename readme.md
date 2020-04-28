@@ -5,12 +5,7 @@ Send follow requests from the suggestions tab .
 Unfollow people .
 Download pictures from a given public profile
 
-## THIS IS A WiP !!!!!!!!
 
-```
-Since this is still experimental , things my change or be super buggy .
-Once fully finished , this section will be deleted , Until then , enjoy this lol.
-```
 
 ## How to use
 
@@ -47,7 +42,6 @@ LOGIN ✔️
 FOllOW ✔️
 UNFOLLOW ✔️
 DOWNLOAD POSTS ✔️
-UNFOLLOWERS ❌
 
 ```
 

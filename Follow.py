@@ -77,6 +77,5 @@ class ZTF():
 
    
 
-
 bot = ZTF()
 bot.login()
