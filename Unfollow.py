@@ -7,22 +7,7 @@ class ZTF():
     def __init__(self):
         self.driver=webdriver.Chrome()
 
-    def follow(self):
-        
-
-        
-        # the number 30 is just for testing , until i figure out how to load everything correctly instead of doing this lol
-        for y in range(1, 10):
-            self.driver.find_element_by_tag_name('body').send_keys(Keys.END)
-            self.driver.find_element_by_tag_name('body').send_keys(Keys.HOME)
-            #the 140 is an approximation of how many people show up in a fully loaded suggestion tab
-        for x in range(1,31) :
-            sleep(5)
-            follow_btn = self.driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/div[2]/div/div/div['+str(x)+']/div[3]/button')
-            follow_btn.click()
-            if(x == 30):
-                self.driver.refresh()
-                ZTF.follow(self)
+   
 
 
 
