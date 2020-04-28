@@ -4,8 +4,6 @@ from time import sleep
 from credentials import profile
 import urllib.request
 
-
-
 class ZTF():
 
     def __init__(self):
